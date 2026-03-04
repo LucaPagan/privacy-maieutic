@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Maieutic</title>
+    <style>
+        :root {
+            --bg-color: #fbfbfd;
+            --text-color: #1d1d1f;
+            --secondary-text: #86868b;
+            --accent-color: #5e5ce6; /* Indigo/Purple accent matching the app's aesthetic */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+            border-radius: 18px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            letter-spacing: -0.02em;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 40px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e5e5ea;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            margin-top: 25px;
+        }
+
+        p, li {
+            font-size: 1.05em;
+            color: #333336;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .date {
+            color: var(--secondary-text);
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        .highlight-box {
+            background-color: #f2f2f7;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive for iPhone */
+        @media (max-width: 768px) {
+            .container {
+                margin-top: 0;
+                margin-bottom: 0;
+                border-radius: 0;
+                box-shadow: none;
+                padding: 30px 20px;
+            }
+            h1 { font-size: 2em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Application:</strong> Maieutic</p>
+        <span class="date">Effective Date: March 4, 2026</span>
+
+        <p>At Maieutic, we believe that cognitive development and critical thinking require a secure, private environment. Your privacy is not an afterthought; it is the foundational architecture of our application. We have engineered Maieutic strictly adhering to "Privacy by Design" and "Privacy by Default" principles.</p>
+        
+        <p>This Privacy Policy outlines our practices regarding the collection, use, and safeguarding of your information when you use the Maieutic iOS application.</p>
+
+        <h2>1. Our Core Commitment: 100% On-Device AI Processing</h2>
+        <p>Maieutic operates as a Socratic AI companion designed to enhance your reasoning skills. Unlike conventional AI applications that rely on cloud-based processing, Maieutic is built differently:</p>
+        
+        <div class="highlight-box">
+            <strong>All Artificial Intelligence processing occurs strictly locally on your device.</strong><br>
+            The app utilizes Apple's native frameworks (Apple Intelligence / FoundationModels) to generate responses and analyze your cognitive patterns. Your conversation threads, behavioral analytics, prompts, and logical frameworks <strong>are never transmitted to external servers</strong>. We do not intercept your data, nor is it ever used to train third-party Large Language Models (LLMs) in the cloud. What you type on your device, stays on your device.
+        </div>
+
+        <h2>2. Data We Collect and How We Use It</h2>
+        
+        <h3>A. Authentication Data (Sign in with Apple)</h3>
+        <p>To allow you to securely save your progress, chat history, and behavioral analytics across sessions, Maieutic utilizes the <strong>"Sign in with Apple"</strong> framework. Through this secure protocol, we receive:</p>
+        <ul>
+            <li>Your Name (only if you choose to share it).</li>
+            <li>Your Email Address (either your real address or a masked relay address provided by Apple).</li>
+            <li>A unique, app-specific User ID provided by Apple.</li>
+        </ul>
+        <p><strong>Purpose:</strong> This data is utilized exclusively to create and identify your local profile within the app. It is stored securely on your device's local database (via SwiftData) and is not transmitted to or stored on any proprietary external servers owned by the developer.</p>
+
+        <h3>B. User-Generated Content & Behavioral Analytics</h3>
+        <p>As you interact with your Socratic AI companion, the app generates and stores:</p>
+        <ul>
+            <li><strong>Calibration Profiles:</strong> Your selected domains of interest, cognitive blocks, and initial dependency levels.</li>
+            <li><strong>Conversation History:</strong> The transcripts of your interactions with the AI.</li>
+            <li><strong>Interaction Metrics & Behavioral Analytics:</strong> Statistical data tracking your reasoning improvements, dependency scores, and logical consistency over time.</li>
+        </ul>
+        <p><strong>Purpose:</strong> This information is strictly used to provide the app's core functionality—specifically, adapting the Socratic engine's difficulty and rendering your progress charts. <strong>All this data is archived locally on your hardware and within your personal, encrypted iCloud account.</strong></p>
+
+        <h2>3. Third-Party Data Sharing</h2>
+        <p>Our operational model is straightforward: <strong>because we do not collect your personal data on our servers, we cannot share, sell, or monetize it.</strong></p>
+        <ul>
+            <li>We do not integrate any third-party advertising or tracking SDKs.</li>
+            <li>We do not utilize invasive analytics tools to monitor your app usage.</li>
+            <li>We do not sell personal information to data brokers.</li>
+        </ul>
+
+        <h2>4. Data Storage and Security</h2>
+        <p>The security of your data is governed by the robust protections of the Apple ecosystem. Your information resides within the application's secure sandbox on your device. If you have enabled iCloud backups, this data may be backed up to Apple's servers, subject to Apple's stringent end-to-end encryption and privacy policies.</p>
+
+        <h2>5. Your Rights and Data Control</h2>
+        <p>You retain absolute ownership of your data. Within the app's "Profile Settings", you maintain full control through two explicit mechanisms:</p>
+        <ul>
+            <li><strong>Sign Out:</strong> Safely unlinks your Apple ID from the current device session.</li>
+            <li><strong>Delete Account:</strong> This is a permanent, irreversible action. Executing this command instructs the app to instantly purge all traces of your User Profile, Chat Threads, and Interaction Metrics from the local device database. Since no data exists on external cloud servers, this action permanently destroys your information.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Maieutic is not directed toward children under the age of 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from minors. If we become aware that we have inadvertently collected such information without parental consent, we will take immediate steps to delete the local account data.</p>
+
+        <h2>7. Important Disclaimer</h2>
+        <p>While Maieutic employs terms such as "Cognitive Rehabilitation" and "Behavioural Analytics", the app is exclusively an educational and productivity tool. It does not provide medical diagnoses, psychiatric evaluations, or therapeutic advice. It is not intended to substitute professional psychological or cognitive therapy.</p>
+
+        <h2>8. Changes to this Privacy Policy</h2>
+        <p>We may update this Privacy Policy periodically to reflect changes in our practices or legal obligations. Should material changes occur, we will update the "Effective Date" at the top of this document and provide prominent notice within the application.</p>
+
+        <h2>9. Contact Information</h2>
+        <p>If you have any questions, concerns, or feedback regarding this Privacy Policy or our data management practices, please contact our privacy representative at:</p>
+        <ul>
+            <li><strong>Privacy Contact:</strong> Luca Pagano</li>
+            <li><strong>Email:</strong> <a href="mailto:LA_TUA_EMAIL_QUI@email.com">LA_TUA_EMAIL_QUI@email.com</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
